@@ -4,7 +4,7 @@ This is a Single Page Application build using ASP.NET MVC5 and Razor. It also sh
 ## Mock JSON Restful API
 This application makes use of JSONPlaceHolder which is a Fake Online REST API for Testing and Prototyping [https://jsonplaceholder.typicode.com/]. Specifically, the UserModelBAL class uses HttpClient to call the Users api to get 10 users back from the API. Also, in one of the views we have a client side javascript function that has an AJAX call calling the same API to create a new user. 
 
-**NOTE: As per the documentation of this mock API, the resource will not be really created on the server but it will be faked as if. **
+*NOTE: As per the documentation of this mock API, the resource will not be really created on the server but it will be faked as if.*
 
 ## Application Overview
 
