@@ -16,4 +16,4 @@ On the page, you can click the Add User button to invoke client side AJAX call t
 
 There are a few unit tests included to verify the controller actions return the correct view, as well as the data is verified in another test. Unit Tests for the model or calling the JSON API were not included but can be added as an exercise. 
 
-![alt tag](https://raw.githubusercontent.com/asadikhan/MVC-Razor/master/samplebot/images/Screenshot.png)
+![alt tag](https://raw.githubusercontent.com/asadikhan/MVC-Razor/master/WebApplication-Razor/images/Screenshot.png)
