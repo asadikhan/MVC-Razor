@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-Razor", "WebApplication-Razor\WebApplication-Razor.csproj", "{3514D228-5543-45F2-8413-E9029F2CFDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{F00AA2B4-D8D4-4723-B8DD-1F48151508FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3514D228-5543-45F2-8413-E9029F2CFDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3514D228-5543-45F2-8413-E9029F2CFDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3514D228-5543-45F2-8413-E9029F2CFDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3514D228-5543-45F2-8413-E9029F2CFDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00AA2B4-D8D4-4723-B8DD-1F48151508FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00AA2B4-D8D4-4723-B8DD-1F48151508FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00AA2B4-D8D4-4723-B8DD-1F48151508FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00AA2B4-D8D4-4723-B8DD-1F48151508FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

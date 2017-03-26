@@ -1,0 +1,9 @@
+﻿@model IEnumerable<WebApplication_Razor.Models.UserModel>
+
+<ul>
+    @foreach (var item in Model) {
+        <li style="list-style-position: inside;">
+            @(String.Format("{0} [ID: {1} - {2} - {3}]", item.Name, item.Id, item.Email, item.Phone))
+        </li>
+    }
+</ul>

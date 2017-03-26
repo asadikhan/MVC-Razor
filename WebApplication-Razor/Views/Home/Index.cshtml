@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script language="javascript" type="text/javascript">
+
+    function AddUser() {
+
+        $.ajax('http://jsonplaceholder.typicode.com/users', {
+            method: 'POST',
+            data: {
+                id: '37',
+                name: 'Asad Khan',
+                email: 'asadikhan@gmail.com', 
+                phone: '647-111-1111'
+            }
+        }).then(function (data) {
+            console.log(data);
+            var s = data.name + " [ID: " + data.id + " - " + data.email + " - " + data.phone + "]";
+            $("#UserListDiv ul").append('<li style="list-style-position: inside;">' + s + '</li>');
+        });
+
+    }
+
+</script>
+
+<div style="text-align: center">
+    <div id="CallToActionDiv">
+        @{Html.RenderAction("CallToAction");}
+    </div>
+    <div id="UserListDiv">
+        @{Html.RenderAction("UserList");}
+    </div>
+    <button id="btnAddUser" onclick="javascript: void AddUser()">Add User</button>
+</div>
